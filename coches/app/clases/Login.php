@@ -12,8 +12,6 @@
  
             }
             public function login($nia,$password){
-                
-                echo "Hola que tal";
 
                 $sql = "SELECT id_usuario,usuario,tipo_usuario FROM usuario WHERE usuario = ? AND password = ?";
                 $stmt = $this->conn->prepare($sql);
