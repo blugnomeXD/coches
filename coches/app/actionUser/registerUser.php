@@ -15,7 +15,7 @@ require_once('../clases/Usuario.php');
          $user = new Usuario();
          $user->registroUsuario($usuario,$password,$dni,$nombre,$primer_apellido,$segundo_apellido,$email,$telefono);
          
-         header("Location: ../index.php");
+         header("Location: ../views/index.php");
          exit();
         
 
