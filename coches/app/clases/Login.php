@@ -21,7 +21,7 @@
                     $stmt->bind_result($id,$usuario,$tipo_usuario);
                     $stmt->execute(); 
         
-        
+        /*
                     if($stmt->fetch()){  
                             session_start();  
                             $_SESSION['$usuario'] = $usuario;
@@ -30,7 +30,7 @@
                     }else{
         
                         //header('Location: ../../index.html');
-                    }
+                    } */
                     
                 $stmt->close();
                 $this->conn->close();
