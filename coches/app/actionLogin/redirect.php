@@ -9,7 +9,7 @@ require_once('../clases/Login.php');
 
         $login->login($user,$password);
         
-             header("Location: app/views/index.php");
+             header("Location: ../views/index.php");
         exit();
        
 
