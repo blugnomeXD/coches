@@ -9,6 +9,7 @@ require_once('../clases/Login.php');
          /* header("Location: https://www.marca.com/");
          exit(); */
 
+    echo $_SESSION['$usuario'];
        
 
     
