@@ -1,17 +1,16 @@
 <?php
 session_start();
 require_once('../clases/Login.php');
-echo " Hola estoy desde  direct";
-    $login = new Login;
+
+      $user = $_POST['user'];
+      $password = $_POST['password'];
+
+      $login = new Login;
 
         $login->login($user,$password);
         
-
-         header("Location: ../views/index.php");
+             header("Location: ../views/index.php");
         exit();
-
-   
-       
-
-    
+  
 ?>
+
