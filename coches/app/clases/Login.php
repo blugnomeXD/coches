@@ -14,8 +14,9 @@
             public function login($nia,$password){
 
                 $sql = "SELECT id_usuario,usuario,tipo_usuario FROM usuario WHERE usuario = ? AND password = ?";
-   /*
                     $stmt = $this->conn->prepare($sql);
+   /*
+                
                     $stmt->bind_param('ss',$nia,$password);
                      $stmt->bind_result($id,$usuario,$tipo_usuario);
                
