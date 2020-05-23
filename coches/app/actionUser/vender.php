@@ -14,5 +14,8 @@ require_once("../clases/Usuario.php");
    
 
     $usu = new Usuario;
-    $usu->ventaCoche($titulo,$marca,$modelo,$precio,$antiguedad,$kilometros,$usuario_venta)
+    $usu->ventaCoche($titulo,$marca,$modelo,$precio,$antiguedad,$kilometros,$usuario_venta);
+
+    header("Location: ../views/index.php");
+         exit();
 ?>
