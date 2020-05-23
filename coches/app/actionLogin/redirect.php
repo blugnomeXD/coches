@@ -6,8 +6,9 @@ require_once('../clases/Login.php');
 
         //$login->login($user,$password);
         
-          header("Location: https://www.marca.com/");
-         exit();
+         /* header("Location: https://www.marca.com/");
+         exit(); */
+echo "hola";
        
 
     
