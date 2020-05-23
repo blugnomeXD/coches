@@ -1,0 +1,121 @@
+body{
+  background-color: #f2f2f2
+
+}
+.navbar{
+
+  background-color:rgb(34, 34, 34);
+}
+.navbar-inverse .navbar-nav > li > a {
+
+  color: #fff;
+  font-weight: 550;
+}
+
+.navbar-inverse .navbar-brand {
+  font-weight: 700;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a{
+
+  background-color:rgb(46, 46, 46);
+  font-weight: 550;
+ 
+}
+.navbar-inverse .navbar-nav > .active > a:hover{
+
+  background-color:rgb(46, 46, 46);
+ 
+}
+.container {
+  
+  min-height: 750px;
+}
+
+.btn-info{
+  margin: 4px;
+}
+.custom{
+width:260px;
+  max-height: 120px;
+}
+
+.form-control {
+
+  width: 40%;
+}
+
+.container-footer{
+  margin: 0 auto;
+  width: 80%;
+  height: 100px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+#footer-text{
+  text-align: center; 
+  margin: 10px;
+}
+
+
+.container-footer a{
+  color: #818285;
+  margin-left: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  
+}
+
+.tamano{
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+}
+@media screen and (max-width: 993px){
+
+      .btn-info{
+        display: block;
+        width: 60%;
+        margin-left: 0px
+    }
+
+    .btn-danger{
+      display: block;
+      width: 60%;
+    }
+   
+}@media screen and (max-width: 767px){
+  .table-responsive > .table > thead > tr > th, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tfoot > tr > td {
+  
+    white-space: normal;
+  }
+
+} 
+
+
+@media screen and (max-width: 600px){
+    .form-control{
+      width: 60%;
+      
+    }
+    textarea{
+      width:100%;
+      }
+
+  }
+
+  @media screen and (max-width: 600px){
+    .container-footer {
+
+      flex-wrap: wrap ;
+    }
+
+  }
+
+
+
+    

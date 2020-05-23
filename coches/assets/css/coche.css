@@ -1,0 +1,58 @@
+
+.lista-coche{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gainsboro;
+}
+
+.foto-coche{
+
+        height: 180px;
+        width: 25%;
+        margin: 3px;
+        
+}
+.lista-coche .foto-coche img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+
+.info-venta{
+    height: 180px;
+    width: 60%;
+    margin: 3px;
+   
+}
+
+.text-modelo{
+
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+}
+.datos{
+    display: flex;
+    justify-content: space-around;
+}
+.datos .izquierda ul{
+    list-style: none;
+    
+}
+.datos .derecha ul{
+    list-style: none;
+    
+}
+
+.submit-comprar{
+    background-color: orange;
+
+    padding: 5px;
+    border: 2px orangered;
+    height: 30px;
+    width: 30%;
+}
+

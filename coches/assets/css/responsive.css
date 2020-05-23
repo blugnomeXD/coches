@@ -1,0 +1,322 @@
+ 
+ /* nav var y index*/
+ @media (max-width:1512px){
+    
+    #menu{
+        width: 55%;
+    }
+}
+
+
+@media (max-width:1489px){
+    
+    .center{
+        width: 77%;
+    }
+}
+
+@media (max-width:1336px){
+    
+    .center{
+        width: 77%;
+    }
+    #menu {
+        width: 61%;
+    }
+}
+@media (max-width:1209px){
+    
+    .center{
+        width: 83%;
+    }
+    #menu {
+        font-size: 14px;
+
+    }
+}
+
+@media (max-width:1115px){
+    
+    #logo{
+        width: 35%;
+    }
+    #menu{
+        width: 68%;
+        float: right;
+    }
+    #menu ul li a {
+        color: black;
+        font-weight: 600;
+    }
+    
+}
+@media (max-width:929px){
+    
+    
+    #menu{
+        width: 71%;
+        
+    }
+    
+}
+
+
+@media (max-width:911px){
+    
+    #logo{
+        width: 41%;
+    }
+    #menu{
+        width: 72%;
+        float: right;
+    }
+    
+}
+@media (max-width:865px){
+    
+    
+    #menu{
+        
+        width: 74%;
+}
+
+@media (max-width:859px){
+    
+    .center{
+        width: 96%;
+    }
+    #logo{
+        width: 49%;
+    }
+    #menu{
+        width: 100%;
+        float: right;
+    }
+    #conten-index{
+        margin-left: -3px;
+    }
+}
+@media (max-width:555px){
+    #logo{
+        width: 57%;
+    }
+    #conten-index{
+        margin-left: -30px;
+    }
+}
+
+@media (max-width:546px){
+
+    #menu ul li {
+        font-size: 12px;
+        display: block;
+        
+    }
+   #slider{
+    height: 600px;
+   }
+}
+
+
+@media (max-width:487px){
+
+    #slider h1{
+        padding-top: 5px;
+        font-size: 27px;
+    }
+}
+
+@media (max-width:478px){
+        #logo{
+            width: 72%;
+
+    }
+    #slider h1{
+        font-size: 25px;
+    }
+}
+@media (max-width:425px){
+    #logo{
+        width: 86%;
+
+    }
+#slider h1{
+    font-size: 22px;
+    text-shadow: none;
+
+    }
+}
+
+@media (max-width:425px){
+    #logo{
+        width: 86%;
+
+    }
+#slider h1{
+    font-size: 22px;
+    text-shadow: none;
+
+    }
+}
+
+@media (max-width:322px){
+    #logo{
+        width: 100%;
+
+    }
+#slider h1{
+    font-size: 20px;
+    text-shadow: none;
+
+    }
+}
+
+@media (max-width:286px){
+    #slider h1{
+        font-size: 18px;
+        text-shadow: none;
+    
+        }
+}
+
+
+/* registro.html*/
+
+@media (max-width:1143px){
+ 
+    #content-register{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:720px){
+    
+    #content-register{
+        width: 65%;
+    }
+}
+@media (max-width:578px){
+    
+    #content-register{
+        margin-left: 72px;
+         width: 70%;
+        margin-top: 11px
+    }
+}
+@media (max-width:352px){
+
+    #content-register{
+        margin-left: 47px;
+        width: 77%;
+    }
+    
+}
+
+@media (max-width:352px){
+
+    #content-register{
+        margin-left: 33px;
+        width: 82%;
+    }
+    
+}
+
+@media (max-width:301){
+
+    .form-register-user input[type='text'], input[type='password'] {
+        margin-left: 4px;
+    }
+}
+
+/*Terminos */
+
+@media (max-width:868px){
+    #terms p {
+        text-align: justify;
+    }
+}
+
+/*Sesion*/
+@media (max-width:635px){
+
+    .container-all:target .popup {
+        left: 43%;
+        width: 93%;
+        height: 28%;
+        padding: 0px;
+        margin-top: -10px;
+
+        
+    }
+    .form-register-user input[type='text'], input[type='password'] {
+    
+        width: auto;
+    }
+
+    .container-form input[type='text'] {
+        width: auto;
+    }
+    .container-form input[type='submit'] {
+        width: auto;
+    }
+}
+
+@media (max-width:635px){
+    .container-all:target .popup {
+       left: 41%;
+
+        
+    }
+}
+
+@media (max-width:376px){
+    .container-all:target .popup {
+       left: 37%
+        
+    }
+}
+
+@media (max-width:326px){
+    
+    .btn-close-popup {
+        margin-left: -43px;
+    }
+}
+
+
+/* VENDE */
+
+@media (max-width:859px){
+    
+    #sidebar-filter {
+    
+       margin-top: 13px;
+    }
+}
+
+
+@media (max-width:419px){
+    
+    #sidebar-filter {
+    
+        min-width: 373px
+    }
+}
+
+@media (max-width:375px){
+    
+    #sidebar-filter {
+    
+        min-width: 320px
+    }
+}
+
+@media (max-width:333px){
+    
+    #sidebar-filter {
+    
+        min-width: 279px
+    }
+}
+
+}

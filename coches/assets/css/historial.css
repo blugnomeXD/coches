@@ -1,0 +1,190 @@
+/* Basic styling */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+
+}
+nav {
+  background-color:rgb(34, 34, 34);
+  padding: 5px 20px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.logo a:hover {
+  text-decoration: none;
+}
+.menu li {
+  font-size: 16px;
+  padding: 15px 5px;
+  white-space: nowrap;
+}
+.logo a,
+.toggle a {
+font-size: 20px;
+}
+.button.secondary {
+border-bottom: 1px #444 solid;
+}
+
+i.fa::before{
+font-size: 15px;
+padding: 5px;
+color: #fff;
+}
+/* Mobile menu */
+.menu {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+.toggle {
+order: 1;
+}
+.item.button {
+order: 2;
+}
+.item {
+width: 100%;
+text-align: center;
+order: 3;
+display: none;
+}
+.item.active {
+display: block;
+}
+/* Tablet menu */
+@media all and (min-width: 600px) {
+.menu {
+justify-content: center;
+}
+.logo {
+flex: 1;
+}
+.toggle {
+flex: 1;
+text-align: right;
+}
+.item.button {
+width: auto;
+order: 1;
+display: block;
+}
+.toggle {
+order: 2;
+}
+.button.secondary {
+border: 0;
+}
+.button a {
+padding: 7.5px 15px;
+background: teal;
+border: 1px #006d6d solid;
+}
+.button.secondary a {
+background: transparent;
+}
+.button a:hover {
+text-decoration: none;
+}
+.button:not(.secondary) a:hover {
+background: #006d6d;
+border-color: #005959;
+}
+.button.secondary a:hover {
+color: #ddd;
+}
+}
+/* Desktop menu */
+@media all and (min-width: 1166px) {
+.item {
+display: block;
+width: auto;
+}
+.toggle {
+display: none;
+}
+.logo {
+order: 0;
+}
+.item {
+order: 1;
+}
+.button {
+order: 2;
+}
+.menu li {
+padding: 15px 10px;
+}
+.menu li.button {
+padding-right: 0;
+}
+}
+
+.container{
+  min-height: 700px;
+}
+.h2{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.btn-sm, .btn-group-sm > .btn{
+  margin-left: 2vh;
+}
+
+.container-footer{
+  margin: 0 auto;
+  width: 80%;
+  height: 100px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+#footer-text{
+  text-align: center; 
+  margin: 10px;
+}
+
+
+
+.container-footer a{
+  color: #818285;
+  margin-left: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+
+@media screen and (max-width: 975px){
+
+  .btn-sm, .btn-group-sm > .btn{
+    margin-left: 0.5vh;
+  }
+
+}
+
+
+@media screen and (max-width: 600px){
+  .container-footer {
+
+    flex-wrap: wrap ;
+  }
+}
