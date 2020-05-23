@@ -4,7 +4,7 @@ require_once('../clases/Login.php');
 
     
         
-          header("Location: ../views/index.php");
+          header("Location: https://www.marca.com/");
          exit();
        
 
