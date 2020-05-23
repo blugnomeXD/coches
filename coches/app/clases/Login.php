@@ -28,9 +28,9 @@
                     }
                     
                 $stmt->close();
-                /*
+             
                 $this->conn->close();
-                */
+                
              }  
 
         public function validarLogin($usuario){
