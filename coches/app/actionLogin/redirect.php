@@ -8,9 +8,11 @@ require_once('../clases/Login.php');
       $login = new Login;
 
         $login->login($user,$password);
-        
+        /*
              header("Location: ../views/index.php");
         exit();
-  
+  */
+
+echo "test";
 ?>
 
