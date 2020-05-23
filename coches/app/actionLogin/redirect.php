@@ -7,8 +7,8 @@ echo " Hola estoy desde  direct";
         $login->login($user,$password);
         
 
-         /* header("Location: https://www.marca.com/");
-         exit(); */
+         header("Location: ../views/index.php");
+        exit();
 
    
        
