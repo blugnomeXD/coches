@@ -28,8 +28,9 @@
                             $_SESSION['$tipo_usuario'] = $tipo_usuario;
                             $_SESSION['$id'] = $id;
                     }
-                   /* 
+                    
                 $stmt->close();
+                /*
                 $this->conn->close();
                 */
              }  
