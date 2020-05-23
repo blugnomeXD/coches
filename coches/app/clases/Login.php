@@ -18,10 +18,10 @@
                     $stmt = $this->conn->prepare($sql);
                     $stmt->bind_param('ss',$nia,$password);
                     $stmt->bind_result($id,$usuario,$tipo_usuario);
-                /*
+               
                     $stmt->execute(); 
         
-      
+       /*
                     if($stmt->fetch()){  
                             session_start();  
                             $_SESSION['$usuario'] = $usuario;
