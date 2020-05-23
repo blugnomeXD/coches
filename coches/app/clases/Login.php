@@ -13,28 +13,12 @@
             }
             public function login($nia,$password){
 
-                $sql = "SELECT id_usuario,usuario,tipo_usuario FROM usuario WHERE usuario = ? AND password = ?";
-                    $stmt = $this->conn->prepare($sql);
-  
-                
-                    $stmt->bind_param('ss',$nia,$password);
-                     $stmt->bind_result($id,$usuario,$tipo_usuario);
-              
-                    $stmt->execute(); 
+                $sql = "SELECT id_usuario,usuario,tipo_usuario FROM usuario WHERE usuario = $nia AND password = $password";
+
+                $row_cnt = $sql->num_rows; 
         
-       
-                    if($stmt->fetch()){  
-                            session_start();  
-                            $_SESSION['$usuario'] = $usuario;
-                            $_SESSION['$tipo_usuario'] = $tipo_usuario;
-                            $_SESSION['$id'] = $id;
-                    }else{
-        
-                        //header('Location: ../../index.html');
-                    }
-                    
-                $stmt->close();
-                $this->conn->close();
+       printf("Result set has %d rows.\n", $row_cnt);
+          $this->conn->close();
                 
              }  
 
