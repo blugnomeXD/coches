@@ -20,7 +20,7 @@
                     $stmt->bind_result($id,$usuario,$tipo_usuario);
                     $stmt->execute(); 
         
-        
+        /*
                     if($stmt->fetch()){  
                             session_start();  
                             $_SESSION['$usuario'] = $usuario;
@@ -33,6 +33,7 @@
                     
                 $stmt->close();
                 $this->conn->close();
+                */
              }  
 
         public function validarLogin($usuario){
