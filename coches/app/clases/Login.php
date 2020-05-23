@@ -13,7 +13,7 @@
             }
             public function login($nia,$password){
 
-                $sql = "SELECT id_usuario,usuario,tipo_usuario FROM usuario WHERE usuario = $nia AND password = $password";
+                $sql = "SELECT id_usuario,usuario,tipo_usuario FROM usuario WHERE usuario = '$nia' AND password = '$password'";
 
                 $row_cnt = $sql->num_rows; 
         
