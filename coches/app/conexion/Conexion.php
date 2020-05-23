@@ -3,10 +3,10 @@
    class Conexion{      
 
       protected $conn;
-      protected $host = 'localhost';
-      protected $db = 'cochesdb';
-      protected $username = 'root';
-      protected $password = '';
+      protected $host = 'sql2.freemysqlhosting.net';
+      protected $db = 'sql2342823';
+      protected $username = 'sql2342823';
+      protected $password = 'lU6*wL5%';
 
       public function Conexion(){
 
