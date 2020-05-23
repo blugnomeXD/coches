@@ -6,10 +6,11 @@ require_once('../clases/Login.php');
 
         $login->login($user,$password);
         
+echo " Hola estoy desde  direct";
          /* header("Location: https://www.marca.com/");
          exit(); */
 
-    echo $_SESSION['$usuario'];
+    E
        
 
     
