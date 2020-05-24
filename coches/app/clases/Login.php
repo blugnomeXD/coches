@@ -11,16 +11,25 @@
                 parent::__construct();
  
             }
-            public function login($nia,$password){
+             public function login($me,$id){
 
-                $sql = "SELECT id_usuario,usuario,tipo_usuario FROM usuario WHERE usuario = '$nia' AND password = '$password'";
-
-                $row_cnt = $sql->num_rows; 
-        
-       printf("Result set has %d rows.\n", $row_cnt);
-          $this->conn->close();
-                
-             }  
+                $sql = "SELECT id_usuario,usuario FROM usuario WHERE usuario = ? AND password = ?"; 
+              
+                        $stmtSelect=$this->conn->prepare($sql );
+                        $stmtSelect->bind_param("ss",$me,$id);
+                        if(!$stmtSelect->execute()){
+                    echo "error: ".$this->conn->error;
+                }
+                else{
+                    /*Sin esto no puedes usar num_rows*/
+                    $stmtSelect->store_result();
+                    $test =$stmtSelect->num_rows;
+                    if ($stmtSelect->num_rows>0) {
+                         echo $test;
+                    }
+                    $stmtSelect->close();   
+            }
+        } 
 
         public function validarLogin($usuario){
 
