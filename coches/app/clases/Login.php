@@ -14,12 +14,12 @@
              public function login($me,$id){
 
                 $sql = "SELECT id_usuario,usuario FROM usuario WHERE usuario = ? AND password = ?"; 
-              /*
+              
                         $stmtSelect=$this->conn->prepare($sql );
                         $stmtSelect->bind_param("ss",$me,$id);
                         if(!$stmtSelect->execute()){
                     echo "error: ".$this->conn->error;
-                }*/
+                }
                
         } 
 
